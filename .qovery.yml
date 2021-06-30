@@ -1,0 +1,15 @@
+---
+application:
+  name: "vux"
+  project: "WebApp"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "vux"
+  version: "4.4"
+routers:
+- name: "main-vux"
+  routes:
+  - application_name: "vux"
+    paths:
+    - "/*"
